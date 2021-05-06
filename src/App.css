@@ -1,0 +1,304 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+/* Generic */
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.section-title {
+  font-size: 45px;
+}
+
+.text-white70 {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: bold;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-megrim {
+  font-family: 'Megrim', cursive;
+}
+
+.text-stroke1 {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black
+}
+
+.text-stroke3 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black
+}
+
+.w95 {
+  width: 95%;
+}
+
+/* Specific*/
+
+.about-article {
+  font-size: 20px;
+  line-height: 35px;
+  max-width: 50%;
+  padding: 5%;
+  word-spacing: 0.2em;
+}
+
+.about-container h2 {
+  float: left;
+  left: 50px;
+  position: relative;
+  top: 100px;
+  z-index: 100;
+}
+
+.about-contents {
+  margin: auto;
+  display: flex;
+  height: 700px;
+  margin-bottom: 100px;
+}
+
+.about-img {
+  width: 75%;
+}
+
+.about-img-one {
+  background-image: url('./images/coffeePlace.jpg');
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-img-two {
+  background-image: url('./images/coffeeLounge.jpg');
+  background-position-y: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carousel-container {
+  height: 600px;
+}
+
+.carousel-slide1 {
+  background-image: url('./images/coffeeFirst.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-slide2 {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-slide3 {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-slide4 {
+  height: 600px;
+  width: 100%;
+}
+
+.carousel-slide5 {
+  height: 600px;
+  width: 100%;
+}
+
+.contact-address {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-address-links-container {
+  display: flex;
+}
+
+.contact-container {
+  background-image: url('./images/coffee.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  padding: 5% 5% 0;
+}
+
+.carousel-container h2 {
+  float: left;
+  left: 50px;
+  position: relative;
+  top: 100px;
+  z-index: 100;
+}
+
+.contact-contents {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+  padding-bottom: 1%;
+}
+
+.contact-link-img {
+  height: 32px;
+  margin: 0 10px;
+  width: 32px;
+}
+
+.contact-maker-container {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+
+.contact-maker-container p{
+  color: grey;
+  font-size: 10px;
+}
+
+.contact-maker-links-container {
+  display: flex;
+}
+
+.contact-maker-links-container p {
+  text-align: center;
+}
+
+.contact-maker-link-img {
+  height: 15px;
+  margin: 0 10px;
+  width: 15px;
+}
+
+.header-container {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  height: 100px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  z-index: 101;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.header-controls-container {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-lag-btn {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.header-link-login {
+  color: grey;
+}
+
+.header-logo {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.header-logo-navi-container {
+  align-items: center;
+  display: flex;
+}
+
+.header-navi-item {
+  margin: 0 10px;
+}
+
+.header-navi-item a {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.header-navi-item a:hover{
+  text-shadow: 1px 0 5px rgba(0, 0, 0, 0.7);
+}
+
+.header-navi-list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  background-image: url('./images/coffeHero.jpg');
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 500px;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  padding-top: 70px;
+}
+
+.hero-contents {
+  max-width: 90%;
+}
+
+.hero-title {
+  font-size: 160px;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.hero-subtitle {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 40%;
+}
+
+.location-container {
+  background-image: url('./images/RuaDaAlfandega.png');
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  margin: 150px 0 100px;
+  padding: 5%;
+}
+
+.location-iframe {
+  border: none;
+  margin-top: 20% ;
+  margin-left: 60%;
+}
